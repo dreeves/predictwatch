@@ -1,3 +1,6 @@
+// This is the code that runs on the watch.
+// The weather part isn't working right now.
+
 var rocky = require('rocky');
 
 var weather; // stores weather data fetched from open weather map
