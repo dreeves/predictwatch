@@ -1,0 +1,27 @@
+{
+    "author": "faireness@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "predict-watch",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Predict Watch",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "rocky",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "25e3c381-1dde-49e2-979e-7a089d2c8c9d",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
