@@ -1,9 +1,10 @@
-// open weather map
+// This is the code that runs on the phone.
+
+// Faire's API key for OpenWeatherMap. Anyone can get one for free.
 var myAPIKey = '0de15b7f09e4e93b7327c261eb03794b';
 
 Pebble.on('message', function(event) {
-  // Get the message that was passed
-  var message = event.data;
+  var message = event.data; // get the message the watch sent us
 
   if (message.fetch === 'predict') {
     var pwurl = 'http://table-cache1.predictwise.com/latest/group_3.json';
@@ -42,6 +43,7 @@ Pebble.on('message', function(event) {
   }
 });
 
+// Fetch the contents of a URL
 function request(url, type, callback) {
   var xhr = new XMLHttpRequest();
   xhr.onload = function(e) {
