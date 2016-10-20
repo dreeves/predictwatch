@@ -58,7 +58,7 @@ function drawWeather(ctx, weather) {
 
 function drawPredict(ctx, predict) {
   var predictString = 'Clinton  ' + predict.clinton + '\nTrump  ' + predict.trump + '\n' + predict.timestamp;
-  ctx.fillStyle = 'lightgray';
+  ctx.fillStyle = 'white';
   ctx.textAlign = 'center';
   ctx.font = '14px Gothic';
   ctx.fillText(predictString, ctx.canvas.unobstructedWidth / 2, 2);
